@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>printing data</h1>
+    <div class="redbase">
+    {% for i in data1 %}
+
+    <h4>first_name:{{i.first_name}}</h4>
+    <h4>gender:{{i.gender}}</h4>
+    <h4>date_of_birth:{{i.date_of_birth}}</h4>
+        <h4>total_marks:{{i.total_marks}}</h4></br>
+
+
+    {% endfor %}
+
+    </div>
+    
+    
+</body>
+</html>
